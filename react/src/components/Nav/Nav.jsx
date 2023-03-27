@@ -10,7 +10,6 @@ import {
   Button,
   Offcanvas,
 } from "react-bootstrap";
-import { FaDiscord, FaEnvelope, FaPhone } from "react-icons/fa";
 import './Nav.scss';
 
 const NavComponent = () => {
