@@ -59,7 +59,7 @@ const Footer = () => {
           <Stack
             gap="3"
             direction="horizontal"
-            className="footer-payment-methods"
+            className="footer-payment-methods app__flexCenter"
           >
             <button className="footer-payment-method-container">
               <img
@@ -86,7 +86,7 @@ const Footer = () => {
         </Col>
       </Row>
       <Row className="footer-bottom">
-        <Col>
+        <Col className="app__flexCenter footer-copyright">
           <p>©2023 KryptoKoin. All rights reserved. Site by <a href="https://johnlagoutaris.netlify.app">John Lagoutaris</a>.</p>
         </Col>
         <Col className="app__flexCenter footer-socials">

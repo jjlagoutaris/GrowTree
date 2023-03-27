@@ -7,9 +7,39 @@
 .footer-logo{
   height: 20px;
   margin-right: 50px;
+  @media screen and (max-width: 600px) {
+    margin: 0;    
+  }
 }
 .footer-top{
   gap: 50px;
+  padding: 0px;
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+    text-align: center;    
+  }
+}
+.footer-bottom{
+  .footer-copyright{
+    justify-content: flex-start;
+    @media screen and (max-width: 600px) {
+      justify-content: center;
+      text-align: center;
+    }
+  }
+  .footer-socials{
+    justify-content: flex-end;
+    gap: 20px;
+    &:hover{
+      cursor: pointer;
+    }
+    @media screen and (max-width: 600px) {
+      justify-content: center;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+  }
 }
 .footer-links-header{
   padding: 0px;
@@ -20,17 +50,15 @@
   color: lightgray;
 }
 .footer-payments-title{
+  text-align: center;
   font-weight: bold;
 }
 .footer-payment-method-image{
   height: 50px;
 }
 .footer-payment-method-container{
-  background-color: var(--secondary);
+  background-color: var(--primary);
   border-radius: 5px;
   padding: 10px 15px;
-}
-.footer-socials{
-  justify-content: flex-end;
-  gap: 20px;
+  border-color: transparent;
 }
