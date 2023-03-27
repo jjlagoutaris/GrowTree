@@ -1,10 +1,21 @@
-import { useState } from 'react'
 import './App.scss'
+import { Nav, Footer } from './components'
+import {MainPage, ContactPage, InfoPage, NotFoundPage} from './pages';
+import {Route, Routes} from "react-router-dom";
 
 function App() {
 
   return (
-    Empty
+    <div>
+      <Nav/>
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/Contact" element={<ContactPage />} />
+        <Route path="/Info" element={<InfoPage />} />
+        <Route path="*" element={<NotFoundPage />} />
+      </Routes>
+      <Footer />
+    </div>    
   )
 }
 

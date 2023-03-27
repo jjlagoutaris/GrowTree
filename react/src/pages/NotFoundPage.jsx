@@ -1,10 +1,10 @@
 import React from 'react'
 import Error from '../containers/Error/Error'
 
-const NotFound = () => {
+const NotFoundPage = () => {
   return (
     <Error />
   )
 }
 
-export default NotFound
+export default NotFoundPage
