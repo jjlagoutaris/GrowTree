@@ -17,10 +17,10 @@ const NavComponent = () => {
     <Navbar
       key="lg"
       expand="lg"
-      className="nav-bg"
+      className="nav"
       sticky="top"
     >
-      <Container fluid>
+      <Container fluid className='nav-container'>
 
       <Col>
         <Navbar.Brand href="/" className="nav-logo-container">
@@ -41,7 +41,7 @@ const NavComponent = () => {
             
           >
             <Offcanvas.Header closeButton>
-              <Offcanvas.Title id={`offcanvasNavbarLabel-expand-lg`} className="h3">
+              <Offcanvas.Title id={`offcanvasNavbarLabel-expand-lg`} className="h3 nav-offcanvas-title">
                 KryptoKoin
               </Offcanvas.Title>
             </Offcanvas.Header>

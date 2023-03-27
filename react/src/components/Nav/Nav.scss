@@ -1,10 +1,17 @@
-.nav-bg{
-  // background-color: black;
+.nav{
   padding: 50px 0;
 }
 
+.nav-container{
+  padding: 0;
+}
+
 .nav-logo-pic{
-  height: 40px;
+  height: 20px;
+}
+
+.nav-logo-container{
+  padding: 0px;
 }
 
 .nav-right{
@@ -31,6 +38,10 @@
   }
 }
 
+
+.nav-offcanvas-title{
+  color: black;
+}
 
 
 
