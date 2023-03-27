@@ -1,3 +1,11 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.app__container{
+  max-width: 85%;
+  margin: auto;
+  background-color: var(--primary);
+}
+
 .app__flexCenter, .app__flexColumn{
   display: flex;
   justify-content: center;
@@ -6,4 +14,32 @@
 
 .app__flexColumn{
   flex-direction: column;
+}
+
+.app__title-large, .app__title-small{
+  font-family: var(--rubik);
+  line-height: 150%;
+  font-weight: normal;
+  font-size: 32px;
+  color: white;
+}
+
+.app__title-small{
+  font-size: 16px;
+  letter-spacing: 4%;
+}
+
+.app__h1, .app__h2, .app__h3{
+  font-family: var(--rubik);
+  font-weight: bold;
+  font-size: 64px;
+}
+
+.app__h2, .app__h3{
+  font-size: 40px;
+  line-height: 150%;
+}
+
+.app__h3{
+  font-size: 32px;
 }

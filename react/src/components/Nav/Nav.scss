@@ -1,0 +1,42 @@
+.nav-bg{
+  // background-color: black;
+  padding: 50px 0;
+}
+
+.nav-logo-pic{
+  height: 40px;
+}
+
+.nav-right{
+  gap: 50px;
+  justify-content: flex-end;
+}
+
+.nav-login-container{
+
+  .nav-login-divider{
+    color: var(--grey6);
+    padding: 0 10px;
+  }
+  .nav-login-login{
+    color: white;
+  }
+  .nav-login-btn{
+    border-radius: 20px;
+    padding: 10px 20px;
+  }
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+.nav-offcanvas-body{
+  background-color: var(--primary);
+}

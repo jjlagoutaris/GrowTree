@@ -5,17 +5,35 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --rubik: Rubik;
+  --primary: #0D0D2B;
+  --secondary: #2B076E;
+  --accent: #3671E9;
+  --white: #FFFFFF;
+  --lightbg: #E5E5E5;
+  --grey6: #F2F2F2;
+
+  background-color: var(--primary);
+}
+
+#root{
+  background-color: var(--primary);
 }
 
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+a{
+  text-decoration: none;
 }
