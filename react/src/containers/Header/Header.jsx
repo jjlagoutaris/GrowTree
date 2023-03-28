@@ -8,6 +8,8 @@ const Header = () => {
   return (
     <Container fluid className="header">
       <Row className="header-row">
+        <div className="header-bg-shape1"></div>
+        <div className="header-bg-shape2"></div>
         <Col className="app__flexColumn header-left-container">
           <div className="header-top-btn">
             <div className="header-top-btn-left app__flexCenter">SAVE 75%</div>
@@ -27,6 +29,7 @@ const Header = () => {
           />
         </Col>
       </Row>
+      
     </Container>
   );
 };
