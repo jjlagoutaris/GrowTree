@@ -1,0 +1,121 @@
+.header{
+  padding: 0;
+  padding-bottom: 10%;
+}
+
+.header-left-container{
+  padding: 0;
+  padding-top: 50px;
+  justify-content: flex-start;
+  width: 50%;
+  gap: 10px;
+  .header-top-btn{
+    align-self: flex-start;
+    padding-right: 15px;
+    display: flex;
+    border-radius: 15px;
+    background-color: rgba(43, 7, 110, 0.3);
+    @media screen and (max-width: 992px) {
+      &::after{
+        content: "Save 75% during the Black Friday Weekend";
+        background-color: var(--primary);
+        color: var(--white);
+        padding: 10px 0;
+        padding-right: 5px;
+        border-radius: 15px;
+      }
+    }
+    @media screen and (max-width: 768px) {
+      align-self: center;
+      max-width: 70%;
+    }
+    .header-top-btn-left{
+      font-weight: bold;
+      padding: 3px 6px;
+      border-radius: 15px;
+      height: 100%;
+      background-color: var(--white);
+      color: var(--primary);
+      @media screen and (max-width: 992px) {
+        display: none;
+        padding: 0;
+      }
+    }
+    .header-top-btn-right{
+      padding: 5px 0;
+      padding-left: 10px;
+      height: 100%;
+      text-align: center;
+      border: none;
+      color: var(--white);
+      @media screen and (max-width: 992px) {
+        display: none;
+        padding: 0;
+      }
+    }
+    @media screen and (max-width: 992px) {
+      padding: 0;
+    }
+
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 100%
+  }
+}
+
+.header-row{
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+  }
+}
+
+.header-subtext{
+  align-self: flex-start;
+  max-width: 70%;
+}
+
+.header-right-container{
+  width: 50%;
+  // border: 1px solid red;
+  .header-image{
+    width: 70%;
+    @media screen and (max-width: 768px) {
+      width: 100%;   
+    }
+  }
+  @media screen and (max-width: 768px) {
+    width: 100%; 
+  }
+}
+
+.header-try-btn{
+  align-self: flex-start;
+  border-radius: 20px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.header-left-header{
+  align-self: flex-start;
+  @media screen and (max-width: 992px) {
+    font-size: 48px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 36px;
+  }
+  @media screen and (max-width: 600px) {
+    font-size: 30px;
+  }
+}
+
+
+.header-top-btn, .header-left-header, .header-subtext, .header-try-btn{
+  @media screen and (max-width: 768px) {
+    align-self: center;
+    text-align: center; 
+  }
+}

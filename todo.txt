@@ -1,1 +1,1 @@
-[] implement responsiveness for Footer
+[x] implement responsiveness for Footer

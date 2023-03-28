@@ -1,8 +1,11 @@
 import React from 'react'
+import Header from '../containers/Header/Header'
 
 const MainPage = () => {
   return (
-    <div className='app__h1'>MainPage</div>
+    <>
+      <Header />
+    </>
   )
 }
 
