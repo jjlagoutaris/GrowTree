@@ -1,7 +1,12 @@
 #kfacts{
   display: flex;
   flex-direction: column;
-  gap: 150px;
+  padding: 0;
+  margin-top: 50px;
+  gap: 50px;
+  // @media screen and (max-width: 1200px) {
+  //   gap: 50px;
+  // }
 }
 
 #kfacts-numbersbanner{
@@ -32,7 +37,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 600px;
+  min-height: 600px;
   gap: 200px;
   border: 1px solid red;
   .kfacts-ad-text-container{
@@ -42,6 +47,9 @@
     gap: 50px;
     .kfacts-ad-text-header, .kfacts-ad-text-description {
       align-self: flex-start;
+      @media screen and (max-width: 1400px) {
+        align-self: center;
+      }
     }
     .kfacts-ad-text-description{
       font-size: 24px;
@@ -59,7 +67,17 @@
         border-color: #3671e9;
         font-size: 18px;
       }
+      @media screen and (max-width: 1400px) {
+        align-self: center;
+      }
     }
+    @media screen and (max-width: 1400px) {
+      text-align: center;
+    }
+  }
+  @media screen and (max-width: 1400px) {
+    flex-direction: column;
+    gap: 50px;
   }
 }
 
@@ -70,5 +88,13 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  max-width: 50%;
+  @media screen and (max-width: 1400px) {
+    justify-content: center;
+    align-items: center;
+  }
+  .kfacts-illustration{
+    height: 100%;
+    width: 100%;
+  }
+
 }
