@@ -1,0 +1,67 @@
+#kfacts{
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+}
+
+#kfacts-numbersbanner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .kfacts-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    .kfacts-numbers-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+}
+
+#kfacts-ad-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  gap: 200px;
+  border: 1px solid red;
+  .kfacts-ad-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    .kfacts-ad-text-header, .kfacts-ad-text-description {
+      align-self: flex-start;
+    }
+    .kfacts-ad-text-description{
+      font-size: 24px;
+      line-height: 1.75rem;
+      letter-spacing: 0.16px;
+    }
+    .kfacts-ad-text-btn-container{
+      padding: 0;
+      align-self: flex-start;
+      .kfacts-ad-text-btn{
+        font-weight: bold;
+        background-color: #3671e9;
+        padding: 12px 24px;
+        border-radius: 32px;
+        border-color: #3671e9;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+
+
+
+.kfacts-illustration-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 50%;
+}

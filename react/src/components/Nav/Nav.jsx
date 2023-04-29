@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import logo from '../../assets/logo.png'
 import { Link } from "react-router-dom";
 import {
@@ -13,11 +13,12 @@ import {
 import './Nav.scss';
 
 const NavComponent = () => {
+
   return (
     <Navbar
       key="lg"
       expand="lg"
-      className="nav"
+      id="nav"
       sticky="top"
     >
       <Container fluid className='nav-container'>

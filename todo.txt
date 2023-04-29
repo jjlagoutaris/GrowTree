@@ -1,1 +1,2 @@
-[x] implement responsiveness for Footer
+Fix nav bg colors
+Fix positioning of header? [seems to jut out at side]
