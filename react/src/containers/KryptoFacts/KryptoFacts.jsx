@@ -5,8 +5,6 @@ import { BsPersonFill } from 'react-icons/bs'
 import gpuMining from '../../assets/gpu-mining.svg';
 import './KryptoFacts.scss'
 
-import { AdSection } from '../../components'
-
 const KryptoFacts = () => {
   const iconSize = 50;
   return (
