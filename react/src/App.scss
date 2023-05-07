@@ -1,9 +1,7 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 
-.app__container{
-  max-width: 75%;
+.app__container > *{
   margin: auto;
-  background-color: var(--primary);
 }
 
 .app__flexCenter, .app__flexColumn{
