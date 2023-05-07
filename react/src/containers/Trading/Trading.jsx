@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 import './Trading.scss'
+import Form from '../../components/Form/Form'
 
 const Trading = () => {
   return (
@@ -14,7 +15,9 @@ const Trading = () => {
       </div>
 
       <div className="trading-rate-calculator">
-
+        <div className="trading-form">
+          <Form />
+        </div>
       </div>
 
       <div className="trading-cards">

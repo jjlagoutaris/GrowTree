@@ -6,9 +6,27 @@
   border: 1px solid red;
   max-width: 75%;
 }
+
+// TRADING TOP
 .trading-top{
   text-align: center;
+  padding: 0 40px;
+  padding-bottom: 200px;
 }
 .trading-top-description{
   max-width: 500px;
+}
+
+// RATE CALCULATOR
+.trading-rate-calculator{
+  margin-top: -170px;
+  width: 80%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#email-form{
+  > *{
+    color: black;
+  }
 }
